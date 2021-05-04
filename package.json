@@ -1,0 +1,21 @@
+{
+  "name": "caesar-cipher-cli",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "node index",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
