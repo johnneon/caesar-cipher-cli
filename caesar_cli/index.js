@@ -4,6 +4,7 @@ const { pipeline } = require('./src/pipeline');
 const program = new Command();
 
 program
+  .storeOptionsAsProperties()
   .option('-s, --shift <number>', 'a shift')
   .option('-a, --action <string>', 'an action encode/decode')
   .option('-i, --input <type>', 'an input file')
