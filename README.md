@@ -7,6 +7,13 @@ Before using install dependencies:
 $ npm install
 ```
 
+CLI tool accept 4 options (short alias and full name):
+
+1.  **-s, --shift**: a shift
+2.  **-i, --input**: an input file
+3.  **-o, --output**: an output file
+4.  **-a, --action**: an action encode/decode
+
 **Usage example:**  
 1. _-a (--action)_ is **encode**
 
